@@ -1,6 +1,6 @@
 <script>
+  import svg from 'remixicon/icons/[folder]/[icon].svg?raw';
   import Icon from './Icon.svelte';
-  import svg from './assets/svg-clean/[icon].svg?raw';
   export let size = '20px';
   export let color = '#2E383A';
 </script>

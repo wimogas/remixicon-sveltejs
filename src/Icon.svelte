@@ -5,7 +5,6 @@
   $: elements = data
     .replace(/<svg ([^>]*)>/, '')
     .replace('</svg>', '')
-    .replace(/(fill=")([^]*)"/, 'fill="currentColor"')
   function extractViewBox(svg) {
     const regex = /viewBox="([\d\- \.]+)"/
     const res = regex.exec(svg)
