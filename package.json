@@ -1,9 +1,13 @@
 {
-  "name": "remixicon-sveltjs",
+  "name": "remixicon-sveltejs",
   "version": "1.0.0",
   "description": "All Remixicon icons made into Svelte components for easy integration",
   "type": "module",
   "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wimogas/remixicon-sveltejs"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
