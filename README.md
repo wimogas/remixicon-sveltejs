@@ -11,7 +11,7 @@ npm i remixicon-sveltejs
 ### Usage
 ```html
 <script>
-  import { AncientGateFill } from 'remixicon-sveltejs/exports/buildings';
+  import { AncientGateFill } from 'remixicon-sveltejs/src/exports/buildings';
 </script>
 
 <AncientGateFill />
