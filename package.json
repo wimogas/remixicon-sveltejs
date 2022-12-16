@@ -1,9 +1,9 @@
 {
   "name": "remixicon-sveltjs",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "All Remixicon icons made into Svelte components for easy integration",
   "type": "module",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
