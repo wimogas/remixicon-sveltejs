@@ -35,16 +35,12 @@ for folder in res:
   for svg in res[folder]:
     createSvelteIcon(svg, folder)
 
-icons = {}
+icons = []
 
 for folder in os.listdir(full_icons_path):
-  icons[folder] = []
   for path in os.listdir(full_icons_path + "/" + folder):
     if os.path.isfile(os.path.join(full_icons_path + "/" + folder, path)):
-      icons[folder].append("export { default as " + path.replace(".svelte", "") + " } from '../icons/" + folder + "/" + path + "';\n")
-  main_icons = open(os.path.join(absolute_path, "src/exports/"+ folder.lower() + ".js"), "w")
-  for icon in icons[folder]:
-    main_icons.write(icon)
+      icons.append("export { default as " + path.replace(".svelte", "") + " } from './icons/" + folder + "/" + path + "';\n")
 
 main_icons = open(os.path.join(absolute_path, "src/main.js"), "w")
 for icon in icons:
