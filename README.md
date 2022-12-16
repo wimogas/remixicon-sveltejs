@@ -1,15 +1,20 @@
-# Sally Icons (Sveltejs)
+# Remixicon x Sveltejs
 
-A pixel-perfect collection of custom-made icons.
+A collection of icons made as independent SvelteJS components.
 
+---
+### Installation
+```html
+npm i remixicon-sveltejs
+```
 ---
 ### Usage
 ```html
 <script>
-  import * as Icons from './icons';
+  import { AddIcon } from 'remixicon-sveltejs';
 </script>
 
-<Icons.AddIcon />
+<AddIcon />
 ```
 
 ## Author
