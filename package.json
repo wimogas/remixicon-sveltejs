@@ -1,6 +1,6 @@
 {
   "name": "remixicon-sveltejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "All Remixicon icons made into Svelte components for easy integration",
   "type": "module",
   "main": "src/main.js",
