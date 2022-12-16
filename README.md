@@ -11,12 +11,19 @@ npm i remixicon-sveltejs
 ### Usage
 ```html
 <script>
-  import { AddIcon } from 'remixicon-sveltejs';
+  import { AncientGateFill } from 'remixicon-sveltejs/exports/buildings';
 </script>
 
-<AddIcon />
+<AncientGateFill />
 ```
 
+---
+### Props
+```html
+<AncientGateFill size="32px" color="red" />
+```
+
+---
 ## Author
 Guillem Moya
 
